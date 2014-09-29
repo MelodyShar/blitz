@@ -1,0 +1,68 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//navbar
+body {
+  padding-top: 50px;
+}
+
+.navbar-default {
+	border: 0px !important;
+}
+
+.navbar {
+	a {
+	  padding-top: 20px !important;
+	  padding-bottom: 20px !important;
+	  font-size: 18px;
+	}
+
+	.navbar-toggle {
+  	margin: 13px 15px 13px 0;
+	}
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar.navbar.small {
+  min-height: 35px;
+  background: black;
+  color: white;
+}
+
+.navbar.small {
+	a {
+	  padding-top: 15px !important;
+	  padding-bottom: 15px !important;
+	  font-size: 15px;
+	  -webkit-transition: all 1s ease-in-out;
+	    -moz-transition: all 1s ease-in-out;
+	    -o-transition: all 1s ease-in-out;
+	    transition: all 1s ease-in-out;
+	}
+
+	.navbar-brand {
+	  font-size: 15px;
+	}
+
+	.navbar-toggle {
+	  padding: 4px 5px;
+	  margin: 8px 15px 8px 0;
+	}
+
+} 
+
+
+//image-grid
+
+.main {
+	@extend .row;
+}
+
+.box {
+	@extend .col-md-2;  
+
+}
