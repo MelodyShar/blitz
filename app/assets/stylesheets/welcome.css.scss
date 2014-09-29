@@ -2,10 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-//navbar
+//liquid scaling
+img {
+	width: 100%;
+}
+
+// text styling 
+
+p {
+	padding-top: 20px;
+	font-size: 12px;
+}
+
 body {
   padding-top: 50px;
 }
+
+.main {
+	margin-top: 40px;
+}
+
+//navbar
 
 .navbar-default {
 	border: 0px !important;
