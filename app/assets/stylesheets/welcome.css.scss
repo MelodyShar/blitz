@@ -12,6 +12,7 @@ img {
 p {
 	padding-top: 20px;
 	font-size: 12px;
+	padding-bottom: 20px;
 }
 
 body {
@@ -73,13 +74,43 @@ body {
 } 
 
 
-//image-grid
+//parallax
 
-.main {
-	@extend .row;
+#parallax-1 { 
+		background: url('http://p1.pichost.me/i/52/1752409.jpg') 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    padding: 200px 0;
+
+   h1 {
+    color: white;
+    font-size: 100px;
+    text-shadow: 1px 1px 1px #000;
+  }
 }
 
-.box {
-	@extend .col-md-2;  
+#parallax-2 { 
+  background: url('http://p1.pichost.me/i/52/1754330.jpg') 50% 0 fixed; 
+  height: auto;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  padding: 100px 0;
+ 
+  h1 {
+		color: rgb(255, 255, 255);
+		text-shadow: 1px 1px 1px #000;
+	}
+}
 
+#parallax-3 { 
+  background: url('http://p1.pichost.me/i/52/1752409.jpg') 50% 0 fixed; 
+  height: auto;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  padding: 100px 0;
+  color: #fff;
 }
